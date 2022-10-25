@@ -1,0 +1,368 @@
+                    ISOMETRIC FONTS #18
+                    German Display
+                    Rubicon Computer Labs
+                    Shareware Edition
+
+SHAREWARE MEANS FREE TRIAL. PLEASE REGISTER.
+
+This package is distributed as shareware, and contains 1 font from our
+German Display set. You may examine and test it, free of charge. Other
+use requires payment of a registration fee. The software is fully
+functional, and not crippled in any way. Please register your shareware
+or pass it along for someone else to try. Payment is on the honour
+system, but registered users receive the following fonts: 
+
+Bremen, Koenig, Textur
+
+TO ORDER: print this page, fill in the order form, attach payment, and
+mail it in. Registration fee is $15 U.S. or equivalent in hard currency
+(e.g. West European, Japanese, Australian, etc.). 
+
+   Rubicon Computer Labs
+   Box 336
+   Chelsea, Quebec
+   Canada  J0X 1N0
+
+[ ] Cheque  (U.S. or Canadian bank)
+[ ] Money Order or Bank Draft
+[ ] Cash
+
+[ ] Truetype or [ ] Postscript
+
+[ ] PC or [ ] MAC
+
+[ ] Send by Mail [ ] by Compuserve [ ] by AOL [ ] by Internet
+
+    Name             ________________________________________
+    Address          ________________________________________
+    Address          ________________________________________
+    City, State, Zip ________________________________________
+    Country          ________________________________________
+
+    Compuserve __________ AOL __________ Internet __________
+
+
+Questions, Purchase Orders, Site Licences, OEM Licences, Custom Fonts
+
+Inquire via Compuserve 71307,1212 or Internet "software@rubicon.ca"
+or America Online "LeeJBell".
+
+
+DESCRIPTION OF CONTENTS
+
+The German Display font set is Rubicon's implementation of the following
+designs: Arnold Boecklin, Kuenstler Medium, and Linotext. They are
+isometric font clones of the originals.
+
+Rubicon's isometric font clones are digitised on a 2000x2000 pixel grid.
+They are isometric to their namesakes, meaning that the Postscript font
+metrics are the same. This includes character widths, baselines, side
+bearings, bounding boxes, and kerning pairs. MacIntosh versions include
+10 & 12 point hand-tuned screen fonts.
+
+FONT INSTALLATION PROCEDURES
+
+Rubicon's Isometric Fonts are provided in Postscript and Truetype
+versions, in PC or MAC format. Installation instructions are given
+below for the following operating systems:
+
+   Windows 3.1 & Truetype
+   Windows 3.x & Postscript
+   Windows 95 & Truetype
+   Windows 95 & Postscript
+   Windows NT & Truetype
+   MS-DOS & Truetype
+   MS-DOS & Postscript
+   OS/2 & Postscript
+   MAC System 7 & Truetype
+   MAC System 7 & Postscript
+   MAC System 6 & Truetype
+   MAC System 6 & Postscript
+
+PC versions can also be used with certain other computer platforms or
+operating systems, and in certain printing devices which accept
+downloadable fonts directly.
+
+The Isometric Fonts software is distributed in either uncompressed
+format (ready to use) or in a compressed archive format, e.g. ZIP for
+PC's or a Stuffit archive for MAC's. Compressed font archives must be
+expanded before installation (this has probably been done already, to
+permit the user to read this file). The font installation software will
+need the location of the new (uninstalled fonts), i.e. the names of the
+disk drive and directory path (folder) where the new fonts are stored.
+
+The new font files should be placed either on a floppy diskette,
+or in a temporary directory (folder) on a hard disk. These files are
+not needed after installation, but a backup copy should be retained.
+During installation, the font software is copied onto hard disk, in the
+appropriate location.
+
+WINDOWS 3.1 & TRUETYPE
+
+To install Truetype fonts into Microsoft Windows 3.1, first note the
+location where the new (uninstalled) fonts are stored. The name of the
+disk drive is needed and the directory path, if any. From inside Windows
+
+   Switch to the program group "Main"
+   Open the icon "Control Panel"
+   Open the icon "Fonts" (not "Printers")
+   Select the "Add" button
+   The dialogue box "Add Fonts" will appear
+   Specify the location of the new fonts as follows:
+      Choose the disk drive letter from the "Drives" menu
+      (Disk drives are denoted a: b: c: etc.)
+      Choose the directory path, if any, from the "Directories" menu
+   The "List of Fonts" menu should display the new font names
+      Choose "Select All" to install all the new fonts
+      Or, select fonts individually from the "List of Fonts" menu
+      (Hold down the shift key to select more than one font)
+   Mark the option box "Copy fonts to Windows directory"
+   Choose "OK", then wait while Windows installs the selected fonts
+   Close the "Fonts" window to return to the Windows "Control Panel"
+   End
+
+In case of difficulty, consult the MS-Windows User's Guide, under
+"Truetype fonts, adding". 
+
+WINDOWS 3.x & POSTSCRIPT
+
+Adobe Type Manager (ATM) for Windows is an alternative to the Truetype
+font rasterizer that is provided with Microsoft Windows 3.1. Older
+versions of ATM also work with Windows 3.0. ATM uses Postscript Type1
+fonts rather than Truetype fonts. The installation procedure for ATM 2.0
+and Windows 3.1 is as follows. Other versions of ATM and/or Windows
+operate similarly. 
+
+First, note the location where the new (uninstalled) fonts are stored.
+The name of the disk drive is needed and the directory path, if any.
+From inside Windows
+
+   Close any programs that are in use
+   Switch to the program group "Main"
+   Open the icon "ATM Control Panel"
+   Select the "Add" button
+      The dialogue box "Add ATM Fonts" will appear
+   Specify the location of the new fonts as follows:
+      Choose the disk drive letter from the "Directories" menu
+      (Disk drives are denoted [-a-] [-b-] [-c-] etc.)
+      Choose the directory path, if any, from the "Directories" menu
+   The "Available Fonts" menu should display the new font names
+      Select fonts individually from this menu
+      (Hold down the shift key to select more than one font)
+   Set the "Target directory for Postscript fonts"
+      the default should be OK, normally "c:\psfonts"
+   Set the "Target directory for font metrics files"
+      the default should be OK, normally "c:\psfonts\pfm"
+   Select the "Add" button
+   Wait while ATM installs the selected fonts
+   Exit the ATM Control Panel
+   Choose the option to "Restart Windows", then wait
+   End
+
+In case of difficulty, consult the ATM User Guide, under "Adding and
+removing fonts".
+
+WINDOWS 95 & TRUETYPE
+
+The Windows 95 Truetype font installation procedure is almost identical
+to that of Windows 3.1. To install Truetype fonts into Microsoft Windows
+95, first note the location where the new (uninstalled) fonts are
+stored. The name of the disk drive is needed and the folder (directory),
+if any. From inside Windows 95
+
+   Switch to the program group "Main"
+   Open the icon "Control Panel"
+   Open the icon "Fonts"
+   From the "File" menu, choose "Install New Font"
+      The dialogue box "Add Fonts" should appear
+   Specify the location of the new fonts as follows:
+      Choose the disk drive letter from the "Drives" menu
+      (Disk drives are denoted a: b: c: etc.)
+      Choose the folder, if any, from the "Folders" menu
+   The "List of Fonts" menu should display the new font names
+      Choose "Select All" to install all the new fonts
+      Or, select fonts individually from the "List of Fonts" menu
+      (Hold down the shift key to select more than one font.)
+   Mark the option box "Copy fonts to Fonts folder"
+   Choose "OK", then wait while Windows installs the selected fonts
+   Close the "Fonts" window to return to the Windows "Control Panel"
+   Close the "Control Panel" window to return to Windows 95
+   End
+
+In case of difficulty, consult the MS-Windows 95 documentation.
+
+WINDOWS 95 & POSTSCRIPT
+
+Adobe Type Manager (ATM) for Windows 95 is an alternative to the
+Truetype font rasterizer that is provided with Microsoft Windows 95. ATM
+uses Postscript Type1 fonts rather than Truetype fonts. Installation
+should be similar to Windows 3.1 (see above), or consult the ATM for
+Windows 95 documentation. 
+
+WINDOWS NT & TRUETYPE
+
+For installation of Truetype fonts, consult the MS-Windows NT documen-
+tation. If and when Adobe Type Manager (ATM) is available for Windows
+NT, consult the ATM documentation for installation of Postscript fonts.
+
+MS-DOS & TRUETYPE
+
+MS-DOS does not support Truetype fonts directly. Those MS-DOS
+applications with Truetype font support each have their own unique
+installation procedures. Consult the corresponding User Guides.
+
+Example: Word Perfect 6.0.
+
+MS-DOS & POSTSCRIPT
+
+MS-DOS does not support Postscript fonts directly. Those MS-DOS
+applications with Postscript font support each have their own unique
+installation procedures. Consult the corresponding User Guides.
+
+Examples: Adobe Font Foundry, Word Perfect 6.0, Ventura Publisher.
+
+OS/2 & POSTSCRIPT
+
+OS/2 provides direct support for Postscript fonts. Note that many users
+run Windows 3.1 on top of OS/2. Windows programs require that the fonts
+be installed into Windows (as above). Either Truetype or Postscript
+fonts can be used. 
+
+To install Postscript fonts into OS/2, first note the location where the
+new (uninstalled) fonts are stored. The drive letter is needed and the
+directory path, if any. Typical examples would be "A:\" or "C:\TEMP".
+
+From the OS/2 System icon view, use the mouse to:
+
+   double click the "System Setup" icon
+   double click the "Font Palette" icon
+   single click the "Edit Font" button
+   single click the "Add" button
+   set the drive/directory of the new fonts
+      e.g. "A:\" or "C:\TEMP"
+   single click the "Add" button
+      a list of filenames will appear under "Font Files"
+   to select fonts for installation, click one or more filenames
+      the corresponding font names will appear
+   click again to deselect unwanted fonts
+   single-click the "Add" button to install selected fonts
+   close the "Edit Font" window
+   close the "Font Palette" window
+   end
+
+MAC SYSTEM 7 & TRUETYPE
+
+To install Truetype fonts into MacIntosh System 7 (or newer), locate and
+identify the Truetype font files, indicated by a suitcase icon with a
+filename ending in "TT", then drag them into the System folder. System 7
+will respond, asking for permission to move the font files into the
+System Font sub-folder. Select the "OK" button. The new fonts will not
+be available to currently running applications until they have been quit
+and re-launched. 
+
+MAC SYSTEM 7 & POSTSCRIPT
+
+Adobe Type Manager (ATM) for MacIntosh is an alternative to the Truetype
+font rasterizer that is provided with System 7. Older versions of ATM
+also work with System 6. ATM uses Postscript Type1 fonts rather than
+Truetype fonts.
+
+To install Postscript fonts for use with ATM, locate and identify
+the screen font files (indicated by a suitcase icon with a filename
+ending in "screen") and the Postscript Type 1 files (icon shows a
+printer and the numeral "1"). Drag these files into the System folder.
+The operating system (Finder) will respond, asking for permission to
+move the font files into the System Font sub-folder. Select the "OK"
+button. The new fonts will not be available to currently running
+applications until they have been quit and re-launched. 
+
+MAC SYSTEM 6 & TRUETYPE
+
+Truetype fonts can be used with later versions of System 6. The follow-
+ing software is required: System 6.0.6 or newer, the Truetype INIT, and
+the Font D/A Mover 4.1 or newer. These were formerly available free of
+charge from Apple. 
+
+Using Font D/A Mover, install the entire contents of the Truetype font
+suitcases. These contain 1 or more Truetype font outlines, and optional-
+ly may contain 1 or more hand-tuned screen fonts.
+
+MAC SYSTEM 6 & POSTSCRIPT
+
+Adobe Type Manager (ATM) for MacIntosh is an alternative to the Truetype
+font rasterizer. Older versions of ATM will work with System 6. ATM uses
+Postscript Type1 fonts rather than Truetype fonts. The Font D/A Mover is
+required. This was formerly available free of charge from Apple.
+
+To install Postscript fonts for use with ATM, first locate and identify
+the screen font files (indicated by a suitcase icon with a filename
+ending in "screen") and the Postscript Type 1 files (icon shows a
+printer and the numeral "1").
+
+Using Font D/A Mover, install the contents of the screen font suit-
+case(s). Then, drag the Type1 font file(s) into the System Folder. The
+new fonts will not be available to currently running applications until
+they have been quit and re-launched.
+
+SHAREWARE LICENCE
+
+Rubicon Computer Labs hereby grants to the User a non-exclusive licence
+to use the software known as "Isometric Fonts, Volume 18, Shareware
+Edition", hereinafter referred to as "the Shareware", subject to the
+following terms and conditions. 
+
+1. The User may use the Shareware only for the purposes of testing,
+demonstration, or review. Use of the Shareware for any other purpose is
+contrary to law, until the prescribed user's licence fee is remitted to
+Rubicon Computer Labs or an authorized dealer.
+
+2. The User may make additional copies of the Shareware for transfer to
+others for purposes of demonstration, testing, and review. These copies
+must be complete, with nothing added or omitted. The User may not charge
+any fee for providing copies of the Shareware.
+
+3. The Shareware is licensed to the User without warranty of any kind,
+express or implied, except as to title, and all such other warranties,
+including those otherwise implied by statute or commom law, are hereby
+expressly disclaimed.
+
+4. Except as and to the extent expressly stipulated herein, neither
+Rubicon Computer Labs nor any succcessor to or affiliate of Rubicon
+Computer Labs, nor any officer, employee, agent or representative of
+either, shall be liable for any loss, damage, claim, liability or
+expense, of any kind or nature whatsoever, arising out of or in
+connection with the acquisition, installation or use, or attempted
+installation or use, of the Shareware, including, without restricting
+the generality of the foregoing, any loss or damage, direct or
+consequential, caused in whole or in part by any real or alleged
+failure of or defect in the Shareware.
+
+5. Acceptance, installation and/or use of the Shareware by the User
+constitutes acceptance of the terms and conditions of this licence. 
+
+SHAREWARE DISTRIBUTION
+
+Persons or organizations wishing to distribute shareware copies of this
+package for a fee must comply with the terms and conditions found in
+either of the accompanying files "VENDOR.DOC" (a plain text file) or
+"VENDEDIT.DIZ" (which contains this information in machine readable
+format).
+
+ASSOCIATION OF SHAREWARE PROFESSIONALS
+
+This program is produced by a member of the Association of Shareware
+Professionals (ASP). ASP wants to make sure that the shareware principle
+works for you. If you are unable to resolve a shareware related problem
+with an ASP member by contacting the member directly, ASP may be able to
+help. The ASP Ombudsman can help you resolve a dispute or problem with
+an ASP member, but does not provide technical support for members'
+products. Please write to the ASP Ombudsman at 545 Grover Road,
+Muskegon, MI 49442-9427 USA, FAX 616-788-2765 or send a CompuServe 
+message via CompuServe Mail to ASP Ombudsman 70007,3536.
+
+COPYRIGHT & TRADEMARK
+
+Isometric Fonts #18, including software and documentation, is copyright
+<C> Rubicon Computer Labs, 1993-96. All rights reserved.
+
+Isometric Fonts (TM) is a trademark of Rubicon Computer Labs.

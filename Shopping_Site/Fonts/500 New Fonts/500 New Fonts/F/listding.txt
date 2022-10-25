@@ -1,0 +1,62 @@
+Listemagerens fonte:
+
+   FONTS:
+   Fantomet (TTF+PS).
+   Karen Helenes Haandskrift (TTF+PS).
+   Klaus Johansens Haandskrift (TTF+PS).
+   W.J. Pearce 213.
+
+   DINGBATS:
+   Square Dingbats.
+   Mayan Dingbats (new version).
+   Ornamenter.
+
+   CLIPBATS:
+   Ancient Heads.
+   Border Dingcats.
+   Devils & Dragons.
+   Dingcats.
+   Dutchmen.
+   Fabeldyr.
+   Fandom Dingbats.
+   Gabriel's Angels.
+   Listemagerens Dingbats.
+   Stjernetegn/Zodiac Woodcuts.
+   Store detektiver/Great Detecttives.
+   WW1 Aeroplanes.
+
+These fonts - and a few others - can be downloaded 
+from http://home2.inet.tele.dk/bibliste/fontarkiv.htm.
+
+The entire collection (about 1.35MB) can be downloaded in 
+a single zipped archive from: 
+   http://www.webgate.dk/elevnet/Fonte/listfont.htm.
+
+This font is postcardware. If you like it, please send 
+a pretty postcard to my daughter (she's nine years 
+old):
+
+	Karen Helene Jensen
+	Kildegaardsvej 134
+	DK-5240 Odense NOE
+	Denmark
+	bibliste@post2.tele.dk
+
+Please keep this text-file with the font!
+
+Listemageren, Jan. 21, 1998 - bibliste@post2.tele.dk
+
+PS: A note to Win3.1-users: due to the limited 
+fonthandling abilities of Win3.1, you may experience 
+difficulties with some of the more complex dingbat-
+fonts. I.e you'll get a square on the screen instead 
+of a character. This has nothing to do with the font! 
+The only solution, I'm afraid, is an upgrade to Win95.
+
+PPS: many thanks to all the people throughout the 
+world who have send us cards, letters, stickers and 
+other nice things in return for either this font or 
+some of the others!! We regret, that we cannot always 
+find the time (or make out the exact adresses!) to 
+reply directly. A single post-card is enough to register 
+the entire collection!

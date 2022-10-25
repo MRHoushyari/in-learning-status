@@ -1,0 +1,15 @@
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation-name: example;
+    animation-duration: 12s;
+  }
+
+  @keyframes example {
+    0%   {left:0%;}
+    /* 25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;} */
+    100% {left:50%;}
+  }

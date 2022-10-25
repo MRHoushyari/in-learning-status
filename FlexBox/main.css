@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+}
+/* Container FlexBox */
+    #container{
+    display: flex;
+    border: 4px solid #95a5a6;
+    background-color: dimgrey;
+    flex-direction: row;
+    justify-content:stretch;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin: 0px;
+}
+/* Container FlexBox */
+
+/* Flex Box Items */
+#container>div{
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 1.4em;
+    border: black 2px solid;
+    width: auto;
+    flex-basis: 100px;
+}
+#search{
+    background-color: #27ae60;
+    align-self: flex-end;
+    margin-left: auto;
+    flex-grow: 1;
+    order: 3;
+}
+#home{
+    margin-left: auto;
+    background-color: #ff9f1a;
+    flex: 2;
+    flex-grow: 5;
+    order: 2;
+
+}
+#login{
+    background-color: #cf6a87;
+    margin-left: auto;
+    flex: 2;
+    flex-grow: 10;
+    order: 1;
+
+}
+/* Flex Box Items */

@@ -1,0 +1,15 @@
+Title
+-----
+Scramble TrueType Font v1.00
+
+Keys
+----
+TrueType;Font;TTF;3D;Scrabble
+
+Description
+------------
+A Realistic TrueType Font.
+Includes example documents in Word for Windows v6, Windows Write and RTF formats.
+All documentation is included with in the .zip
+Registration is £5.00 Stirling. Registered Users get 6 months eMail support.
+Shareware Uploaded By The Author

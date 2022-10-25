@@ -1,0 +1,9 @@
+Notes on using this font:
+
+Shifted capital letters have higher cursive ligatures than unshifted.  
+This allows some of the higher characters ("t", "o", etc) to properly connect
+with the lower characters.  Hence, the word "Violation" would be properly
+typed "VIoLatIoN" in order to get all the ligatures to match.
+
+It's a hack, yes, but I think it looks cooler than having 'em all line 
+up the same way.  

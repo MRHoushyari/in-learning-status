@@ -1,0 +1,3 @@
+/* 481 - 768 */
+.card_section .card{
+    grid-column: auto / span 6;}

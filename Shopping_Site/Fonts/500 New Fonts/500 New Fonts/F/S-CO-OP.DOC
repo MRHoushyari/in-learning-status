@@ -1,0 +1,110 @@
+Software Co-op was started by Bob Ostrander not only as a company to
+distribute his software, but also to give representation to other authors.
+Bob Ostrander has been in the computer business since 1970 and active in
+the shareware market since 1982. He was the founder and president of
+Public Brand Software and currently is on the Board of Directors of the
+Association of Shareware Professionals.
+
+Currently available as shareware from Software Co-op:
+
+Layout    A small CAD system working by mnemonics for office and room
+          organization. Prints to IBM/Epson or HP LaserJet printers.
+          A unique feature is the ability to keep six free-form fields
+          related to each object in each room. These can be used for
+          capital goods or fixed assets inventory. This data may be
+          exported via comma-delimited files.
+
+          Look for LAYOUT.ZIP on BBSs. $20 registration fee. $35 with
+          printed manual and current disk.
+
+          Author: Martin Waldman
+          Current version: 3.0
+
+DMPLAS    A 6k TSR that translates IBM/Epson printer output to HP LaserJet
+          (PCL) standards. Works with both text and graphics. DMPLAS can
+          reproduce exactly formatted print both horizontally and
+          vertically (good for filling in forms) or the vertical aspect
+          can be shrunk by 10% to accommodate the LaserJet's 10-inch page.
+
+          DMPLAS can also be used in stand-alone mode to translate and
+          print pre-formatted output.
+
+          A set of optional HP LaserJet soft fonts are included that can
+          produce more accurate results on printers that do not have a
+          full range of fonts. Included are normal, bold, italic, and
+          italic bold fonts as well as a full set of proportional Courier
+          fonts.
+
+          DOWNLOAD by Elfring Soft Fonts is also included in the font set.
+          It is included in full registration or it can be registered
+          separately.
+
+          Look for DMPLAS.ZIP and DMPLASFN.ZIP on BBSs. $32 registration
+          for DMPLAS only. $44 for registration of both DMPLAS and the
+          optional soft fonts. Both include current disk and a printed
+          manual.
+
+          Authors: Martin Waldman, Bob Ostrander, Gary Elfring
+          Current version: 1.1
+
+ClipBook  An image cataloger for use within Asymetrix ToolBook. Stores
+          both raster (bitmap) and vector (line oriented) pictures,
+          indexes them for easy access, seamlessly integrates with
+          Windows' Clipboard. Even performs slide shows. Multiple catalogs
+          can be kept, manipulated, and merged.
+
+          Works in color or black and white. In black and white mode
+          provides excellent printing of color pictures.
+
+          Functions also include a customizable Launch facility to call up
+          other programs.
+
+          Look for CLIPBOOK.ZIP on BBSs. $40 registration includes current
+          disk and Asymetrix ToolBook runtime ver 1.5. $80 registration
+          also brings 500+ pictures pre-installed in ClipBook.
+
+          Author: Steve Shubitz
+          Current version: 3.0
+
+GridForm  Makes grid paper on an HP LaserJet printer. Inch or metric
+          measurements. Rule lines. Regular or logarithmic scales.
+
+          Look for GRIDFORM.ZIP on BBSs. $20 registration.
+
+          Author: Martin Waldman
+          Current version: 1.0
+
+Fonts Ink Creating new, useful True Type and PostScript Type 1 fonts.
+          Handcrafted in the best traditions of typography.
+          Current offerings:
+          FIKeys1   - KeyCaps representation of the "typable" keys.
+          FIKeys2   - KeyCaps accurate representations of the keyboard.
+          FIKeys3   - KeyCaps in a build-a-word-in-a-key format.
+          FIBox     - Text in box sans-serif font.
+          FIBoxBB   - White sans-serif text in a black box.
+          Fraction  - Easy to use fractions - serif font.
+          FractSS   - Easy-to use fractions - sans-serif font.
+          FISign    - Sign language manual alphabet.
+          FIBrail   - Braile alphabet font.
+          MadAve    - Display font like Solotype's Advertiser Light Gothic.
+
+          and more to come like HoliBats, HardBats, ElecBats, Bar Codes,
+                                Tickertape, State Maps, Shadows, ...
+
+          Author: Bob Ostrander
+
+All Software Co-op programs are supported by voice, BBS, and CompuServe.
+Site licenses and bundling licenses are available.
+
+For more information contact
+
+Bob Ostrander
+Software Co-op
+5437 Honey Manor Dr
+Indianapolis IN 46241
+
+317-856-6052 (voice)
+76635,1670 (CompuServe)
+76635.1670@compuserve.com (Internet)
+317-856-2086 (fax)
+

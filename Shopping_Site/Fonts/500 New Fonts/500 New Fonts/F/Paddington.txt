@@ -1,0 +1,58 @@
+Greetings Font Fiends:
+
+Here is something new for you to play with. 'Paddington' is a 
+translation of a sans serif design drawn by Edward Johnston for
+London Transport in 1918. It is generally considered to be the first
+modern sans serif design. Some comments about this translation are 
+in order:
+
+1. Current version number: 1.1 (February 1997)
+
+2. No, Martha, these aren't complete character sets. I created
+these faces for a project, used them, polished them up a bit, and now
+they're yours. I may or may not extend the character sets, based on 
+the amount of whining and sniveling that I receive. But be very nice 
+to me or I may just tell you to buzz off.
+
+3. The 'plain' font is based very closely on the original, but see
+#4 below. The italic, demibold, demibold italic, small caps and 
+demibold small caps are my own invention. If you don't like them, 
+don't use them.
+
+4. I have very slightly (<10%) beefed-up the vertical stems and 
+vertical bits of curved strokes -- this assures optically consistent
+strokes.
+
+5. Some of the characters are of my own invention:
+
+> the commercial 'at' sign (needed for e-mail addresses, alas)
+> the text, or lowercase, numerals
+> the italic lowercase a and f
+> the straight-back y
+> the $ and ¢ signs
+> the diacritical marks
+> the euro monetary symbol
+
+6. These fonts exist in Mac Type-1 format only. 
+I have no interest whatsoever in converting them to PC, Amiga, or
+Unix formats -- for those, and anything else, you're on your own.
+
+7. I am releasing these typefaces as freeware. That's right: 
+You don't have to pay me. I am hoping, not in vain, I trust, that 
+you have a conscience and will not use or appropriate these typefaces 
+to your use without giving some credit where it is due. In all events,
+the notice contained in the fonts must remain intact.
+
+8. Although I have written a book about Fontographer and use it 
+extensively, I found it necessary to finish up these fonts in 
+FontStudio. Fontographer's hinting is, well, execrable. I was able 
+to obtain effective automatic hinting from FontStudio that 
+Fontographer could not equal, even with a little hand-tuning of 
+the hints. Shocking. More shocking is that Adobe has bought Ares 
+(who developed FontStudio) and Adobe, apparently has no plans 
+to do anything with the program. Depressing.
+
+Cheers.
+
+Stephen Moye, Stephen_Moye@brown.edu
+

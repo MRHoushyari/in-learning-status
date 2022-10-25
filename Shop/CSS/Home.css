@@ -1,0 +1,137 @@
+.mainDivContainer header nav{
+    margin-top: 0.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;}
+/* Nav .slider */
+.mainDivContainer header nav .rightDiv{
+    width: 20%;
+    margin-right: 2%;}
+.mainDivContainer header nav .rightDiv i{
+    font-size: 1.8em;
+    cursor: pointer;
+    margin-left: 10%;
+    color: rgb(70, 70, 70);}
+.mainDivContainer header nav .leftDiv{
+    font-size: 1.5em;
+    color: rgb(70, 70, 70);;
+    margin-left: 1%;
+    width: 10%;
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;}
+.mainDivContainer header nav .leftDiv i{
+    margin-left: 5px;
+    width: 25%;
+    margin-left: 0.5;}
+/* Header .slider */
+.mainDivContainer header .slider{
+    margin-top: 15px;}
+.mainDivContainer header .slider .slides .item{
+    position: relative;
+    display: none;}
+.mainDivContainer header .slider .slides .active{
+    display: block;}    
+.mainDivContainer header .slider .slides .item img{
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;}
+.mainDivContainer header .slider .slides .item span{
+    position: absolute;
+    right: 55px;
+    top: 50%;
+    font-size: 2.5em;}
+.mainDivContainer header .slider .btns{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    vertical-align: auto;}
+.mainDivContainer header .slider .btn{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;}
+.mainDivContainer header .slider .btn:hover{
+    background-color: white;}
+/**************************************** Main .OfferRow*/
+.amazingOffer{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;}
+.amazingOffer .offerCards{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    text-align: center;
+ /* border: 4px solid black */}
+.amazingOffer .offerCards .imageSection{
+position: relative;
+align-items: center;}
+.amazingOffer .offerCards .imageSection .specialOffer{
+position: absolute;
+right: 10px;
+top: 10px;
+padding: 10px;
+font-size: 1.2em;
+/* color: white; */
+background-color: red;
+border-bottom-left-radius: 25px;
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;}
+.amazingOffer .offerCards .imageSection img{
+height: 200px;}
+.amazingOffer .offerCards .imageSection .stars{
+position: absolute;
+left: 10px;
+top: 10px;
+font-size: 1.5em;
+color: gold;}
+/* .amazingOffer .offerCards .titleSection{} */
+.amazingOffer .offerCards .titleSection span{
+    font-size: 1.5em;}
+.amazingOffer .offerCards .buttomSection{
+display: flex;
+justify-content: space-between;
+padding: 10px;}
+.amazingOffer .offerCards .buttomSection .right{
+    font-size: 1.5em;}
+.amazingOffer .offerCards .buttomSection .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+/* .amazingOffer .offerCards .buttomSection .i{} */
+.amazingOffer .offerCards .buttomSection .left .ext-btn{
+    width: 25px;
+    display: flex;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;}
+
+.amazingOffer .offerCards .buttomSection .left .ext-btn:hover{
+    width: 130px;
+    transition: width 0.75s;}
+.amazingOffer .offerCards .buttomSection .left .ext-btn .favText{
+    margin-right: 10px;
+    color: white;
+    height: 20px;
+    visibility: hidden;
+    overflow: hidden;}
+
+.amazingOffer .offerCards .buttomSection .left .ext-btn .basketText{
+    margin-right: 10px;
+    color: white;
+    height: 20px;
+    visibility: hidden;
+    overflow: hidden;}
+.amazingOffer .offerCards .buttomSection .left .ext-btn:hover .basketText{
+    visibility: visible;}
+.amazingOffer .offerCards .buttomSection .left .ext-btn:hover .favText{
+    visibility: visible;}

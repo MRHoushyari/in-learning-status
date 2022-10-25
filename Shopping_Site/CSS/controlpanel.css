@@ -1,0 +1,148 @@
+.controlpanelcontainer{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);}
+.controlpanelcontainer .leftsection{
+    grid-column: 1 / 10;}
+.controlpanelcontainer .leftsection .header{
+    margin-top: 30px;
+}
+.controlpanelcontainer .leftsection .header .headernav{
+    /* margin-top: 50px; */
+
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.controlpanelcontainer .leftsection .header .headernav .left{}
+.controlpanelcontainer .leftsection .header .headernav .left .iconcontainer{
+    font-size: 18px;
+    color: #57606f;
+}
+.controlpanelcontainer .leftsection .header .headernav .left .iconcontainer i{
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+.controlpanelcontainer .leftsection .header .headernav .left .iconcontainer .power{}
+.controlpanelcontainer .leftsection .header .headernav .left .iconcontainer .setting{}
+.controlpanelcontainer .leftsection .header .headernav .left .iconcontainer .alert{}
+
+.controlpanelcontainer .leftsection .header .headernav .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controlpanelcontainer .leftsection .header .headernav .right .searchboxcontainer{
+    background-color: #f1f2f6;
+    padding: 5px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 10px;
+}
+.controlpanelcontainer .leftsection .header .headernav .right .searchboxcontainer .searchicon{
+    color: #ced6e0;
+}
+.controlpanelcontainer .leftsection .header .headernav .right .searchboxcontainer input{
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+.controlpanelcontainer .leftsection .header .headernav .right .baricon{
+    color: blue;
+    font-size: 1.6em;
+}
+
+.controlpanelcontainer .leftsection .headertitle{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+.controlpanelcontainer .leftsection .headertitle a{}
+.controlpanelcontainer .leftsection .headertitle a .language{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+.controlpanelcontainer .leftsection .headertitle span{
+    font-size: 1.2em;
+}
+
+.controlpanelcontainer .leftsection main{
+    /* border: solid 4px black; */
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: #dfe4ea;
+    /* height: 500px; */
+}
+.controlpanelcontainer .leftsection main .cards{
+    /* border: 4px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.controlpanelcontainer .leftsection main .cards .card{
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+.controlpanelcontainer .leftsection main .cards .card .left{
+    padding: 15px 30px;
+}
+.controlpanelcontainer .leftsection main .cards .card .left span{
+    display: block;
+    direction: rtl;
+}
+
+.controlpanelcontainer .leftsection main .cards .card .right{
+    background-color: #76797e;
+    height: 100%;
+}
+.controlpanelcontainer .leftsection main .cards .card .right i{
+    padding: 30px 20px;
+}
+
+.controlpanelcontainer .leftsection main .chartsection{
+    
+    margin: 20px;
+    background-color: #929daf;
+    height: 650px;
+}
+.controlpanelcontainer .leftsection main .chartsection .chartheader{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 5px 10px;
+}
+.controlpanelcontainer .leftsection main .chartsection .chartheader .left{}
+.controlpanelcontainer .leftsection main .chartsection .chartheader i{
+    margin-right: 10px;
+}
+.controlpanelcontainer .leftsection main .chartsection .chartheader .left .reload{}
+.controlpanelcontainer .leftsection main .chartsection .chartheader .left .gear{}
+
+.controlpanelcontainer .leftsection main .chartsection .chartheader .right{}
+.controlpanelcontainer .leftsection main .chartsection .chartheader .right span{}
+
+/* .controlpanelcontainer .leftsection main chart */
+
+.controlpanelcontainer .rightsection{
+    grid-column: 10 / -1;
+    direction: rtl;
+    /* border: 4px solid black; */
+}
+.controlpanelcontainer .rightsection .userinfo{}
+
+.controlpanelcontainer .rightsection nav{}
+.controlpanelcontainer .rightsection nav .products{}
+.controlpanelcontainer .rightsection nav .products span{}
+.controlpanelcontainer .rightsection nav .products i{}

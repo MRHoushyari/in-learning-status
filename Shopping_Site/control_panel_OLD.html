@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Main.css">
+    <link rel="stylesheet" href="CSS/Control_panel.css">
+    <script src="https://kit.fontawesome.com/f751776325.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>کنترل پنل</title>
+</head>
+<body>
+    <div class="controlpanelcontainer">
+        <section class="leftsection">
+            <div class="header">
+                <div class="navcontainer">
+                    <div class="left">
+                        <i class="fa-solid fa-power-off"></i>
+                        <i class="fa-solid fa-gear"></i>
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <div class="right">
+                        <div class="searchbox">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text">
+                        </div>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="titlecontainer">
+                    <div class="left">
+                        <a href="">
+                            <div class="languagebnt">
+                                <input value="فارسی" type="button">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <span>آخرین ورود 2 روز پیش</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="cards">
+                    <div class="card">
+                        <div class="left">
+                            <div class="spancontainer">
+                                <span>تکمیل انبار</span>
+                                <span>400</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <i class="fa-solid fa-warehouse"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="left">
+                            <div class="spancontainer">
+                                <span>تکمیل انبار</span>
+                                <span>400</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <i class="fa-solid fa-warehouse"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="left">
+                            <div class="spancontainer">
+                                <span>تکمیل انبار</span>
+                                <span>400</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <i class="fa-solid fa-warehouse"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="left">
+                            <div class="spancontainer">
+                                <span>تکمیل انبار</span>
+                                <span>400</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <i class="fa-solid fa-warehouse"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="chartcontainer">
+                    <div class="setting">
+                        <div class="left">
+                            <i class="fa-solid fa-arrow-rotate-right"></i>
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <span class="right">
+                            درآمد
+                        </span>
+                    </div>
+                    <div class="chart">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rightsection">
+            <div class="userinfo">
+                <i>فلش پایین</i>
+                <span>محمد حسین</span>
+                <img src="" alt="">
+            </div>
+            <nav>
+                <div class="navitem">
+                    <span>محصولات</span>
+                    <i></i>
+                </div>
+                <div class="navitem">
+                    <span>سفارشات</span>
+                    <i></i>
+                </div>
+                <div class="navitem">
+                    <span>گزارش ها</span>
+                    <i></i>
+                </div>
+                <div class="navitem">
+                    <span>پشتیبانی</span>
+                    <i></i>
+                </div>
+                <div class="navitem">
+                    <span>کاربرها</span>
+                    <i></i>
+                </div>
+            </nav>
+        </section>
+    </div>
+    <script>
+        const labels = [
+          'January',
+          'February',
+          'March',
+          'April',
+          'May',
+          'June',
+        ];
+      
+        const data = {
+          labels: labels,
+          datasets: [{
+            label: 'My First dataset',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [0, 10, 5, 2, 20, 30, 45],
+          }]
+        };
+      
+        const config = {
+          type: 'line',
+          data: data,
+          options: {}
+        };
+      </script>
+    <script>
+        const myChart = new Chart(
+          document.getElementById('myChart'),
+          config
+        );
+      </script>
+</body>
+
+</html>

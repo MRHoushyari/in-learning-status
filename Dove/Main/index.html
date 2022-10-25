@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- font aweosome -->
+    <!-- <link rel="stylesheet" href="Fontawesome/all.css" /> -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end offont aweosome -->
+
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <!-- end of bootstrap cdn -->
+
+    <!-- title & icon  -->
+    <link rel="icon" href="Images/DoveLogo.png" type="image/icon type" />
+    <title>Document 2</title>
+    <!-- title & icon  -->
+  </head>
+  <body>
+    <!-- navbar -->
+    <!-- <nav class="navbar shadow navbar-expand-lg">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="" class="navbar-brand text-warning">
+        BRAND
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav" style="margin-left: auto">
+          <li class="nav-item active mx-lg-2">
+            <a href="" class="nav-link">گزارشات</a>
+          </li>
+          <li class="nav-item mx-lg-2 dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >محصولات</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">آیتم 1</a>
+              <a class="dropdown-item" href="#">آیتم 2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">آیتم های دیگر</a>
+            </div>
+          </li>
+          <li class="nav-item mx-lg-2"><a href="" class="nav-link">خانه</a></li>
+          <li class="nav-item mx-lg-2">
+            <a href="" class="nav-link">تماس با ما</a>
+          </li>
+          <li class="nav-item mx-lg-2"><a href="" class="nav-link">خروج</a></li>
+        </ul>
+        <form class="form-control border-0" style="width: 350px;">
+          <div class="input-group">
+            <input type="text" placeholder="جستجو" class="form-control"/>
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary bg-success">
+                <i class="fas fa-search">
+              </i>
+            </div>
+          </button>
+          </div>
+        </form>
+      </div>
+    </nav> -->
+    <!-- end of navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+        <ul class="navbar-nav" style="margin-left: auto">
+          <li class="nav-item mx-lg-2"><a href="" class="nav-link">خروج</a></li>
+          <li class="nav-item mx-lg-2">
+            <a href="" class="nav-link">تماس با ما</a>
+          </li>
+          <li class="nav-item active mx-lg-2">
+            <a href="" class="nav-link">گزارشات</a>
+          </li>
+          <li class="nav-item mx-lg-2 dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >محصولات</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">آیتم 1</a>
+              <a class="dropdown-item" href="#">آیتم 2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">آیتم های دیگر</a>
+            </div>
+          </li>
+
+          <li class="nav-item mx-lg-2"><a href="" class="nav-link">خانه</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <section>
+      <div
+        class="container-fluid bg-warning row align-items-center"
+        style="height: 95vh"
+      >
+        <!-- <div class="col-lg-8 col-md-6 d-none d-md-block" style="border: solid black 2px;"> -->
+        <div class="col-lg-8 col-md-6 d-none d-md-block text-center">
+          <!-- pic -->
+          <img src="Images/Products.jpeg" />
+        </div>
+        <div class="col-lg-4 col-md-6 align-items-center text-center">
+          <!-- text -->
+          <h1 class="display-3 text-white justify-content-center my-5">
+            داو دوست دار شما
+          </h1>
+          <h2 class="display-5 d-flex justify-content-center mb-5">
+            داو فرق میکنه
+          </h2>
+          <a href="" class="btn btn-outline-light btn-lg">وبلاگ</a>
+          <a href="" class="btn btn-light btn-lg">باشگاه مشتریان</a>
+        </div>
+      </div>
+    </section>
+    <!-- end of banner -->
+    <!-- Furure -->
+    <section class="p-4">
+      <div class="container-fluid bg-light text-center">
+        <h2 class="text-warning display-4" style="font-weight: 900">
+          مدیون اعتماد شماییم
+        </h2>
+        <p class="mt-5">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+          در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+          طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+          الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+          صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+          شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای
+          اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده
+          قرار گیرد.
+        </p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4 col-md-6 text-center">
+          <i class="fas fa-heartbeat text-danger" style="font-size: 100px"> </i>
+          <h2 class="display-5 text-black-50" style="font-weight: 900">
+            دوست دار سلامتی
+          </h2>
+          <p class="text-black-50" style="font-weight: 700">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <i class="fas fa-award text-warning" style="font-size: 100px"> </i>
+          <h2 class="display-5 text-black-50" style="font-weight: 900">
+            نشان برتر
+          </h2>
+          <p class="text-black-50" style="font-weight: 700">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-12 text-center">
+          <i class="fas fa-leaf text-success" style="font-size: 100px"> </i>
+          <h2 class="display-5 text-black-50" style="font-weight: 900">
+            کاملا طبیعی
+          </h2>
+          <p class="text-black-50" style="font-weight: 700">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Future -->
+    <!-- Products -->
+    <!-- <section>
+      <div class="col-lg-4 text-center">
+        <img src="Images/DoveLogo.png" alt="">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quia atque veniam ipsum accusantium ut dolorem fugiat officiis perspiciatis incidunt.</p>
+      </div>
+      <div class="col-lg-4"></div>
+      <div class="col-lg-4"></div>
+      
+      
+    </section> -->
+
+    <section>
+      <div class="container text-center">
+        <div>
+          <h1 class="display-5 text-warning mt-5" style="font-weight: 900">
+            کیفییت سخن محصولات ماست
+          </h1>
+          <p class="mt-5">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 pt-lg-5 text-center text-black-50 mb-5 mb-lg-0">
+            <img src="Images/Prosuct1.jpg" alt="" class="img-thumbnail" />
+            <h2 class="">صابون ها</h2>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است
+            </p>
+          </div>
+          <div class="col-lg-4 text-center text-black-50 mb-5 mb-lg-0">
+            <img src="Images/Prosuct2.jpg" alt="" class="img-thumbnail" />
+            <h2 class="">نرم کننده ها</h2>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است
+            </p>
+          </div>
+          <div class="col-lg-4 pt-lg-5 text-center text-black-50 mb-5 mb-lg-0">
+            <img src="Images/Prosuct3.jpg" alt="" class="img-thumbnail" />
+            <h2 class="">شامپو ها</h2>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Products -->
+    <!-- Blog -->
+    <section class="bg-dark">
+      <div class="text-center p-4">
+        <h1
+          class="display-3 text-warning"
+          style="font-size: 35px; font-weight: 800"
+        >
+          تازه های وبلاگ
+        </h1>
+      </div>
+      <div class="row px-5 pb-5">
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <!-- <div class="container"> -->
+            <img class="card-img-top" src="./Images/Products.jpeg" />
+            <!-- </div> -->
+            <div class="card-body text-right">
+              <h5 class="card-title">تست تست</h5>
+              <p class="card-text">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+              <a href="#" class="">
+                <i class="fas fa-twitter"></i>
+              </a>
+              <a href="#" class="">
+                <i class="fas fa-facebook"></i>
+              </a>
+              <a href="#" class="">
+                <i class="fas fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <!-- <div class="container"> -->
+            <img class="card-img-top" src="./Images/Products.jpeg" />
+            <!-- </div> -->
+            <div class="card-body text-right">
+              <h5 class="card-title">تست تست</h5>
+              <p class="card-text">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+              <a href="#" class="">
+                <i class="fas fa-twitter"></i>
+              </a>
+              <a href="#" class="">
+                <i class="fas fa-facebook"></i>
+              </a>
+              <a href="#" class="">
+                <i class="fas fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <!-- <div class="container"> -->
+            <img class="card-img-top" src="./Images/Products.jpeg" />
+            <!-- </div> -->
+            <div class="card-body text-right">
+              <h5 class="card-title">تست تست</h5>
+              <p class="card-text">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+              <a href="#" class="">
+                <i class="fas fa-twitter"></i>
+              </a>
+              <a href="#" class="">
+                <i class="fas fa-facebook"></i>
+              </a>
+              <a href="#" class="">
+                <i class="fas fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <!-- <div class="container"> -->
+            <img class="card-img-top" src="./Images/Products.jpeg" />
+            <!-- </div> -->
+            <div class="card-body text-right">
+              <h5 class="card-title">تست تست</h5>
+              <p class="card-text">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+              <a href="#" class="">
+                <i class="fas fa-twitter"></i>
+              </a>
+              <a href="#" class="">
+                <i class="fas fa-facebook"></i>
+              </a>
+              <a href="#" class="">
+                <i class="fas fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of blog -->
+
+    <!-- Contact -->
+    <section>
+      <div style="display: flex; flex-direction: column; align-items: center">
+        <h3 class="text-warning my-5" style="font-weight: 700">ارتباط با ما</h3>
+        <p class="text-muted" style="font-weight: 500">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+          از طراحان گرافیک است
+        </p>
+        <h1 class="mt-5 text-muted pr-2" style="align-self: flex-end">
+          آیا سوالی دارید؟
+        </h1>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- End Of Contact -->
+    <!-- Footer -->
+    <section>
+      <div class="container-fluid bg-dark text-center mt-3 pb-3">
+        <i class="fas fa-dove text-warning my-5" style="font-size: 65px;"></i>
+        <h3 class="text-white">داو فرق میکنه</h3>
+        <div class="my-4">
+          <i class="fab fa-instagram text-danger m-3" style="font-size: 30px;"></i>
+          <i class="fab fa-twitter text-info  m-3" style="font-size: 30px;"></i>
+          <i class="fab fa-facebook text-danger  m-3" style="font-size: 30px;"></i>
+        </div>
+        <h1 class="display-5 text-white mb-2">ایجاد شده توسط هوشیاری</h1>
+      </div>
+    </section>
+    <!-- End Of Footer -->
+  </body>
+
+  <!-- bootstrap 4 cdn -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"
+  ></script>
+  <!-- end ofbootstrap 4 cdn   -->
+</html>

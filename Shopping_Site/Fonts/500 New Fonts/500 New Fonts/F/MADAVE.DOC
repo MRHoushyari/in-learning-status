@@ -1,0 +1,106 @@
+                             Madison Avenue
+                              Documentation
+
+INSTALLATION:
+------------
+
+Luckily there isn't much documentation needed to effectively use the
+Madison Avenue font in Windows 3.1. In fact what documentation you need
+you already have.
+
+To activate TrueType fonts, copy them to your WINDOWS/SYSTEM directory and
+activate them via the Control Panel - Fonts menu.
+
+To activate PostScript Type 1 fonts, copy the *.PFB to your PSFONTS and
+the *.PFM to your PSFONTS/PFM subdirectories and activate them via ATM.
+We have included .AFM, .CFG, and .INF files for your use if your
+particular non-windows setup needs them but if you are using Windows you
+can ignore these small files.
+
+Using these fonts within other systems will require installation as
+outlined in the documentation of those systems.
+
+
+THE FONT:
+---------
+
+MADAVE is generally a decorative Sans Serif font modeled after Solotype's
+Advertiser Gothic Light. You'll find it a swoopy, effective font for
+promotional pieces, advertisements, etc.
+
+This is a fully hinted font - including diagonal hints in the TrueType
+set. It uses composite characters wherever possible to conserve resources
+and increase printing speed.
+
+
+CONTACT:
+-------
+
+Thanks for trying out Fonts Ink's Madison Avenue. We hope you like it. If
+you have any comments or suggestions please contact Bob Ostrander at:
+
+Fonts Ink division of
+Software Co-op             (317-856-6052)
+5437 Honey Manor Dr,
+Indianapolis, IN 46241     CIS: 76635,1670 - Bob Ostrander
+
+Fonts Ink is supported on CompuServe in the ASP Forum Product Support
+section. (GO ASPFORUM - Section 1). The publisher is available there to
+answer any questions you have. The latest version is always available in
+DTPFORUM PC Fonts section (GO DTPFORUM - Library 9).
+
+Support is also given by BBS on the PBS-BBS (317-856-2087  1200-38400 baud)
+in the Author Support conference (Join 1).
+
+Madison Avenue is written and copyrighted (1992) by Bob Ostrander.
+
+
+
+REGISTRATION:
+------------
+
+Registration of Madison Avenue gets you:
+
+- The legal right to use the Madison Avenue font past the evaluation
+  period.
+
+- The LATEST version of the software, plus notice of updates. A disk with
+  both TrueType and PostScript Type 1 font sets will be sent if you
+  request.
+
+- Full evaluation copies of more Fonts Ink offerings.
+
+- Notices of updates, new products, and reduced-price upgrades.
+
+- Free voice-line technical support.
+
+- Online support via CompuServe, Internet, Prodigy, and BBS.
+
+- A (developing) catalog of other fine font products from Fonts Ink.
+
+You can register the entire Madison Avenue package by sending $20 to Software Co-op
+using the invoice in LICENSE.DOC. Software Co-op also accepts credit card
+payments on 317-856-6052.
+
+
+Other Products
+--------------
+
+Handcrafted in the best traditions of typography.
+Offerings (as of the time of this release).
+
+FIKeys1   - KeyCaps representation of the "typable" keys.
+FIKeys2   - KeyCaps accurate representations of the keyboard.
+FIKeys3   - KeyCaps in a build-a-word-in-a-key format.
+FiBox     - Text in box sans-serif font.
+FiBoxBB   - White sans-serif text in a black box.
+Fraction  - Easy to use fractions - serif font.
+FractSS   - Easy-to use fractions - sans-serif font.
+FISign    - Sign language manual alphabet.
+FIBrail   - Braile alphabet font.
+MadAve    - Display font like Solotype's Advertiser Light Gothic.
+
+Call for information about Fonts Ink's current line, site licenses,
+bundling licenses, resale licenses, and custom-made fonts.
+
+

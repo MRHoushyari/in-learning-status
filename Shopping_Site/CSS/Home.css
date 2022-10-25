@@ -1,0 +1,253 @@
+/* HEADER */
+.header nav{
+    display: flex;
+    justify-content: space-between;}
+.header nav .login_button{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    margin-top: 15px;}
+.header nav .login_button .logintext{
+    font-size: 1.2em;
+    color: #444;}
+.header nav .login_button .loginicon{
+    font-size: 1.2em;
+    margin-left: 10px;}
+
+.header nav .right{
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 5 px;
+    margin-top: 15px;}
+.header nav .right .a{
+    cursor: pointer;}
+.header nav .right .icon{
+    color: #444;
+    font-size: 1.2em;
+    margin-right: 25px;}
+
+.header .slider{
+    position: relative;
+    margin-top: 50px;}
+.header .slider img{
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;}
+.header .slider .slidetext{
+    position: absolute;
+    font-size: 4.55em;
+    top: 100px;
+    right: 50px;}
+.header .slider .circles{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;}
+.header .slider .circles .circle{
+    color: #444;
+    font-size: 1.2em;
+    margin-right: 12px;}
+.header .slider .circles .circle:hover{
+    color: white;}
+
+
+/* CARD SECTION */
+.card_section{
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: auto;
+    column-gap: 50px;
+    row-gap: 10px;}
+.card{
+    position: relative;
+    width: 400px;
+    /* min-width: 400px; */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+
+/* .card .head{} */
+.card .head img{
+    width: 150px;
+    height: 200px;
+}
+.card .head .stars{
+    color: gold;
+    position: absolute;
+    top: 10px;
+    left: 10px;}
+.card .head .amazing_offer{
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 1.2em;}
+
+.card .title{
+    font-size: 1.3em;
+    padding: 5px 0;
+    /* margin-bottom: 30px; */}
+
+.card .buttom{
+    display: flex;
+    margin-top: 35px;
+    /* margin-bottom: 50px; */
+    justify-content: space-between;}
+.card .buttom .right{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 2px;
+    margin-right: 20px;}
+.card .buttom .left{
+    display: flex;}
+.card .buttom .left .basket{
+    display: flex;
+    transition-property: all;
+    transition-duration: 2s;
+    background-color: green;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;}
+.card .buttom .left .basket .text{
+    transition-duration: 0.7s;
+    transition-property: font-size;
+    font-size: 0;}
+
+/* hover basket*/
+.card .buttom .left .basket:hover .text{
+    margin-right: 10px;
+    font-size: 1em;}
+.card .buttom .left .basket .icon{
+    font-size: 1.2em;}
+
+/* hover like*/
+.card .buttom .left .like{
+    display: flex;
+    background-color: green;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;}
+.card .buttom .left .like .text{
+    font-size: 0;
+    transition-property: font-size;
+    transition-duration: 0.7s;}
+.card .buttom .left .like:hover .text{
+    margin-right: 10px;
+    font-size: 1em;}    
+.card .buttom .left .like .icon{
+    font-size: 1.2em;}
+
+/* MAIN SECTION */
+.main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 50px;
+    /* border: pink solid 4px; */}
+.main .banner{}
+.main .banner img{}
+.main .super_amazing{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 80% 20%;}
+.main .super_amazing .tag{
+    position: absolute;
+    left: 40%;
+    right: auto;
+    color: white;
+    background-color: red;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;}
+.main .super_amazing .left{
+    text-align: center;}
+.main .super_amazing .left .price{
+    margin: 100px auto 20px auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;}
+.main .super_amazing .left .price .percent{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 45px;
+    font-size: 1.5em;}
+.main .super_amazing .left .price .final_price{
+    color: #444;
+    padding: 20px;
+    border-radius: 45px;
+    font-size: 1.5em;}
+.main .super_amazing .left .title{
+    border-bottom: 2px solid #444;
+    font-size: 2em;}
+.main .super_amazing .left .bottom{
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #444;}
+.main .super_amazing .left .bottom .counter_down{
+    display: block;}
+.main .super_amazing .left .bottom .counter_text{
+    margin-top: 10px;
+    display: block;}
+.main .super_amazing .right{}
+.main .super_amazing .right img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;}
+
+/* drag slider section */
+.drag_slider {
+    margin-bottom: 20px;
+    /* padding: 40px; */}
+.drag_slider .card .head{
+    background-color: white;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* border: solid 5px pink; */}
+.drag_slider .card .head img{
+    width: 80%;}
+
+/* footer section */
+footer{
+    color: white;
+    direction: rtl;
+    text-align: center;}
+footer .about{
+    background-color: #666;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-top: 10px;
+    padding-bottom: 20px;}
+footer .about .left{
+    text-align: center;}
+footer .about .left .followus{}
+footer .about .left .followus .h2{}
+footer .about .left .social_icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 60px 0px 60px;}
+footer .about .left .social_icon i{
+    font-size: 2.2em;
+    color: white;}
+
+footer .about .right{}
+footer .about .right h3{
+    font-size: 1.5em;
+    margin-right: 30px;
+    margin-top: 15px;
+    text-align: start;}
+footer .about .right p{
+    text-align: start;
+    margin-right: 25px;}
+
+footer .copyright{
+    padding: 30px;
+    background-color: #222;
+    font-size: 1.5em;}

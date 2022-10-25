@@ -1,0 +1,9 @@
+Buffied final version (1.5)
+
+
+alt0176 will produce a slightly different 'a'
+alt0177 will produce a slightly different 'f'
+alt0178 will produce a slightly different 's'
+alt0179 will produce a slightly different 'o'
+
+added a few other characters.

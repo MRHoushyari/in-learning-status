@@ -1,0 +1,298 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+<MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>1.10</MASTER_PAD_VERSION>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+</MASTER_PAD_VERSION_INFO>
+<Company_Info>
+        <Company_Name>Match Software</Company_Name>
+        <Address_1>8205 Santa Monica Blvd</Address_1>
+        <Address_2>Suite 1-205</Address_2>
+        <City_Town>West Hollywood</City_Town>
+        <State_Province>CA</State_Province>
+        <Zip_Postal_Code>90046-5912</Zip_Postal_Code>
+        <Country>USA</Country>
+        <Company_WebSite_URL>http://www.fontmenu.com</Company_WebSite_URL>
+<Contact_Info>
+        <Author_First_Name>Michel</Author_First_Name>
+        <Author_Last_Name>Bujardet</Author_Last_Name>
+        <Author_Email>mb@fontmenu.com</Author_Email>
+        <Contact_First_Name>Michel</Contact_First_Name>
+        <Contact_Last_Name>Bujardet</Contact_Last_Name>
+        <Contact_Email>mb@fontmenu.com</Contact_Email>
+    </Contact_Info>
+<Support_Info>
+        <Sales_Email>sales@fontmenu.com</Sales_Email>
+        <Support_Email>support@fontmenu.com</Support_Email>
+        <General_Email>sales@fontmenu.com</General_Email>
+        <Sales_Phone>310-388-5216</Sales_Phone>
+        <Support_Phone>310-388-5216</Support_Phone>
+        <General_Phone>310-388-5216</General_Phone>
+        <Fax_Phone>310-388-5216</Fax_Phone>
+    </Support_Info>
+</Company_Info>
+<Program_Info>
+        <Program_Name>Block Letters TTF font</Program_Name>
+        <Program_Version>1.00</Program_Version>
+        <Program_Release_Month>08</Program_Release_Month>
+        <Program_Release_Day>02</Program_Release_Day>
+        <Program_Release_Year>2001</Program_Release_Year>
+        <Program_Cost_Dollars>19.95</Program_Cost_Dollars>
+        <Program_Cost_Other />
+        <Program_Type>Shareware</Program_Type>
+        <Program_Release_Status>New Release</Program_Release_Status>
+        <Program_Install_Support>Install Only</Program_Install_Support>
+        <Program_OS_Support>Win 3.1x,Win95,Win98,WinME,WinNT 3.x,WinNT 4.x,Windows2000,OS/2,OS/2 Warp,OS/2 Warp 4</Program_OS_Support>
+        <Program_Language />
+        <Program_Change_Info />
+        <Program_System_Requirements>Basic system</Program_System_Requirements>
+        <Program_Specific_Category>Education</Program_Specific_Category>
+        <Program_Categories>elementary education, graphics, fonts, truetype, ttf</Program_Categories>
+<File_Info>
+        <Filename_Versioned>Blh_ttf.zip</Filename_Versioned>
+        <Filename_Previous />
+        <Filename_Generic />
+        <Filename_Long>BlockLetters_TTF.zip</Filename_Long>
+        <File_Size_Bytes />
+        <File_Size_K>50</File_Size_K>
+        <File_Size_MB />
+    </File_Info>
+<Expire_Info>
+        <Has_Expire_Info>N</Has_Expire_Info>
+        <Expire_Count />
+        <Expire_Based_On>Days</Expire_Based_On>
+        <Expire_Other_Info />
+        <Expire_Month />
+        <Expire_Day />
+        <Expire_Year />
+    </Expire_Info>
+        <Includes_JAVA_VM>N</Includes_JAVA_VM>
+        <Includes_VB_Runtime>N</Includes_VB_Runtime>
+        <Includes_DirectX>N</Includes_DirectX>
+</Program_Info>
+<Program_Descriptions>
+<English>
+        <Keywords>writing skills, Block letters, handwriting, TTF, Windows, D&apos;Nealian</Keywords>
+        <Char_Desc_45>Block Letters font D&apos;Nealian style lTTF</Char_Desc_45>
+        <Char_Desc_80>Block Letters for learning handwriting (D&apos;Nealian style) - TTF.</Char_Desc_80>
+        <Char_Desc_250>Fontmenu.com Block Letters typeface offers the possibility to create exercises that follow the guidelines of the D&apos;Nealian ® approach.
+With these typefaces, you can create you own exercises and study books.
+TTF evaluation font. 6 fonts in full pack</Char_Desc_250>
+        <Char_Desc_450>Fontmenu.com Block Letters typeface offers the possibility to create exercises that follow the guidelines of the D&apos;Nealian ® approach.
+With these typefaces, you can create you own exercises and study books, with the phrases and curriculum that you consider the most appropriate for learning handwriting. They work within any standard application. Full version contains guided, arrows and dotted letters.
+TTF evaluation font</Char_Desc_450>
+        <Char_Desc_2000>Fontmenu.com Block Letters typeface offers the possibility to create exercises that follow the guidelines of the D&apos;Nealian ® approach.
+With these typefaces, you can create you own exercises and study books, with the phrases and curriculum that you consider the most appropriate for learning handwriting. They work within any standard application, and can be used with such programs as Microsoft Word™, Claris Works™, and current software.  Full version contains guided, arrows and dotted letters.
+
+TTF  evalutation sample</Char_Desc_2000>
+</English>
+</Program_Descriptions>
+<Web_Info>
+<Application_URLs>
+        <Application_Info_URL>http://www.fontmenu.com/site/_BlockLetters.html</Application_Info_URL>
+        <Application_Order_URL>http://www.fontmenu.com/cgi-bin/caisseg.pl?W-LHW</Application_Order_URL>
+        <Application_Screenshot_URL>http://www.fontmenu.com/printouts/%BlockLetters.gif</Application_Screenshot_URL>
+        <Application_Icon_URL>http://www.fontmenu.com/pics/fontmenubutton.gif</Application_Icon_URL>
+        <Application_XML_File_URL>http://www.fontmenu.com/padinfo/BlockLetters.xml</Application_XML_File_URL>
+    </Application_URLs>
+<Download_URLs>
+        <Primary_Download_URL>ftp://ftp.fontmenu.com/shareware/win/Blh_ttf.zip</Primary_Download_URL>
+        <Secondary_Download_URL>ftp://ftp.asp-shareware.org/03330/Blh_ttf.zip</Secondary_Download_URL>
+        <Additional_Download_URL_1 />
+        <Additional_Download_URL_2 />
+    </Download_URLs>
+</Web_Info>
+<Permissions>
+        <Distribution_Permissions>http://www.fontmenu.com
+Download our latest font packages !
+
+                         DISTRIBUTORS WELCOME
+
+This document is placed in every shareware evaluation package from Fontmenu.com.
+ It outlines the few requirements needed to distribute such material. Match Software 
+shareware evaluation packages are intellectual property of Match Software.
+ Although these files are proposed for free evaluation purposes to the public, 
+Match Software reserves all copyrights.  Derogation to these rules are only possible 
+with prior permission of Match Software. Any infringement on Match Software
+copyright will be subject to the strongest legal action.
+
+Match Software is a member of the Association of Shareware Professionals 
+(ASP). All good standing ASP distributor members are welcome to 
+immediately start distributing Match Software shareware evaluation 
+packages, as long as they respect points 1 &amp; 2. Non ASP distributors must 
+make sure they comply with the other points outlined in the following 
+text.
+
+1 - Archives as prepared by Match Software must not be modified in any
+way prior to distribution. Their content must not be modified in any way,
+would it be by suppression or addition of information.
+
+2 - Under no circumstance any part of Match Software shareware evaluation
+packages should be used as component of any other software product
+without prior consent of Match Software.
+
+3 - Good standing ASP approved vendors, and distributor members, can
+immediately proceed to publish this package on CD, as well as diskettes.
+Any CD publishing from non-ASP vendors must be approved by Match Software
+prior to publishing.  Authorization can be obtained easily by e-mail or
+letter. Match Software reserves the right to refuse authorization if the
+publisher or it&apos;s representative does not provide adequate information
+about the publishing project. We appreciate that publishers provide us
+with a sample of the published CD package, as soon as it is available.
+
+4 - On-line services, BBS, Internet sites and other electronic networks
+are free to distribute on-line Match Software evaluation packages, as
+long as they respect points 1 and 2.
+
+5 - Magazines who decide to distribute Match Software shareware
+evaluation packages as part of a promotional disk must follow the same rules
+as other shareware distributors.
+
+6 - Always use the latest version of the shareware packages, which you
+can download from our web site, or our ftp site. If you cannot find a specific 
+package, please ask for it by eMail. We will send it to you electronically as soon
+as we receive your message.
+
+These requirements as simple and resort to elementary good sense. Match 
+Software prepares these shareware evaluation packages with great care, 
+and updates them regularly, in order for the public to receive the best
+service as possible. The latest version of our archives are currently
+available on our Web site : http://www.fontmenu.com and anonymous
+ ftp site : ftp.fontmenu.com
+ 
+Shareware is meant for Match Software as a meaningful and sensible way of 
+marketing it&apos;s products. In doing so, many benefit from the generous 
+efforts of the company : distributors, some of whom without shareware 
+would probably loose a good part of their business, as well as users, who 
+enjoy the privilege to use and test at will quality software before
+buying it. Nevertheless, we welcome any offer of new ways of
+distribution, publication or otherwise profitable ventures. The main
+ingredient of most software products being not plastic or paper, but
+creativity, we are quite sure some of our new ideas may find in
+industrious hands a fortunate destiny. Please contact us, if you think
+Match Software creations can profit your business !
+
+Match Software - Fontmenu.com
+8205 Santa Monica Blvd. #1-205
+West Hollywood, CA 90046-5912
+(323) 656-4244
+sales@fontmenu.com
+
+Match Software is a member of the Association of Shareware
+Professionals. For more information about the association, see :
+http://www.asp-shareware.org/</Distribution_Permissions>
+        <EULA>DISCLAIMER - AGREEMENT
+
+Users of the fonts placed on this disk or in this archive must accept 
+this disclaimer of warranty: &quot;These fonts are supplied as is.  
+The author disclaims all warranties, expressed or implied, including, 
+without limitation, the warranties of merchantability and of fitness 
+for any purpose.
+
+The author assumes no liability for damages, direct or conse-
+quential, which may result from the use of these fonts.&quot;
+
+If you feel like sharing your enthusiasm for our font products, 
+please pass around our shareware evaluation packages, which you can 
+find on CompuServe, America Online, major BBS, ASP shareware 
+vendors, and on our web site : http://www.fontmenu.com. 
+Please always make sure to pass along the complete archive.
+
+Please, DO NOT POST TTF files by themselves. You would deprive
+other users of a chance to get the full version of the font.
+
+2 - SUPPORT
+
+While we do our best to make sure you enjoy our fonts to their
+fullest, please remember that they are both technical, and artistic
+creations. We will gladly provide support for technical questions. 
+Requests for artistic changes will be taken as suggestions, which 
+implies one should not expect aesthetic touches as part of a normal 
+support. Nevertheless, artistic point of views and suggestions are 
+always welcome, and appreciated.
+
+Before contacting us, please make sure you have read the end of this
+document. It has been written, based on questions asked very
+frequently, by users who requested support. Finding the answer in
+this document will save you time and aggravation.
+
+For practical and financial reasons, we cannot provide phone 
+technical support. You may, however, report any problem at
+(310) 388-5216. We will usually follow-up within 24 hours, 
+by email or fax.
+
+You can also contact us by email at support@fontmenu.com. 
+Please try to be as specific as possible,in order to get appropriate
+ help. Specify the name of the font you are using, on which
+ platform (Mac, Windows or OS/2), and the exact nature of the
+ problem. Depending on the complexity of the question, we will do 
+our best to  reply as quicly as possible, usually within 24 hours.
+
+Reported technical bugs will be fixed as rapidly as possible.
+However, given the necessity for tests and verifications, it is
+impossible to give standard time limit. In general, past experiences
+have shown an average response in less than a week. When completed,
+font updates will be sent to the customer who has reported the bug
+by email (or regular mail, if no email is available).
+Subscribers of our Free updates electronic newsletter will be notified 
+immediately of new updates and new free packages available to download.
+To subscribe, please visit http://www.fontmenu.com.
+
+3 - LIMITED WARRANTY
+
+If for any reason the registered version of the font/program was
+provided to you directly by Match Software in a deffective archive, 
+or on a defective media (disk or CD), it will be exchanged for a new 
+one at no cost.
+
+If you have suggestions for improving this font/program, we 
+appreciate your comments. It does not mean we will fix or modify the
+font in the way you wish in a given time, or that we must do it in
+any way. However, if we feel the suggestion is appropriate, next
+version of the font may be inspired from these advises.
+
+We decline any responsibility if for any reason this font/program is
+put to bad use in any way. It worked fine on a regular
+configuration, and on a regular printer, with the most usual
+software packages. If, for any reason, it could not work on your
+specific configuration, Match Software cannot be held responsible. 
+As technical combinations are almost infinite, and because systems 
+evolve in ways we cannot predict, it might happen a new system, or a 
+particular configuration, does not work with a font. For instance, 
+because a new version of the system requires a new font format. In 
+general, we will try to keep up with the system versions, and 
+eventually offer upgrades, if possible, but it does not constitute
+an obligation, nor would it be the case if you acquired a set of
+seats cover for your specific car, and require they fit any new car
+you may decide to buy later on.
+
+4 - ASP OMBUDSMAN
+
+This program is produced by a member of the Association of Shareware
+Professionals (ASP).  ASP wants to make sure that the shareware
+principle works for you. If you are unable to resolve a
+shareware-related problem with an ASP member by contacting the
+member directly, ASP may be able to help. The ASP Ombudsman can help
+you resolve a dispute or problem with an ASP member, but does not
+provide technical support for members&apos; products.
+
+Please write to
+     ASP Ombudsman
+     545 Grover Road,
+     Muskegon, MI 49442-9427
+     USA
+     FAX 616-788-2765
+     or send a message to ASP Ombudsman
+     - via CompuServe mail 70007,3536
+     - email 70007.3536@compuserve.com</EULA>
+</Permissions>
+<ASP>
+    <ASP_FORM>Y</ASP_FORM>
+    <ASP_Member>Y</ASP_Member>
+    <ASP_Member_Number>03330</ASP_Member_Number>
+</ASP>
+<ESC>
+    <ESC_FORM>Y</ESC_FORM>
+    <ESC_Member>Y</ESC_Member>
+</ESC>
+</XML_DIZ_INFO>

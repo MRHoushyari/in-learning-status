@@ -1,0 +1,18 @@
+/* #cards div{
+    background-color: chocolate;
+} */
+/* #container{
+    display: none;
+} */
+body{
+    background-color: darkorchid;
+}
+#cards{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+    

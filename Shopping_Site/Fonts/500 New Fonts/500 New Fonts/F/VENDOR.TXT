@@ -1,0 +1,55 @@
+Scramble Truetype Font
+~~~~~~~~~~~~~~~~~~~~~~
+Copyright (C) 1996-1997 Byte-Sized Computing
+All Rights Reserved.
+
+This file provides information for Shareware Distributors and Disk Vendors
+who wish to distribute the Scramble font, including an extract from the license
+agreement (See LICENSE.TXT) and suggested program descriptions and keywords.
+
+Distribution
+~~~~~~~~~~~~
+The complete license agreement is contained in the file LICENSE.TXT.
+
+The following paragraph is an extract from the license agreement
+regarding the distribution of the software:
+
+Provided that you verify that you are distributing the current
+version you are hereby licensed to make as many copies of this 
+software and documentation as you wish; give exact copies of the
+original version to anyone; and distribute the version of the 
+software and documentation in its unmodified form via electronic
+means.
+There is no charge for any of the above.
+
+You are specifically prohibited from charging, or requesting
+donations, for any such copies, however made; and from
+distributing the software and/or documentation with other products
+(commercial or otherwise) without prior written permission.
+
+Obtaining the Latest Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Before distributing the fonts please verify that you have the 
+latest versions.  
+The latest versions are always available on our web site:
+http://www.Byte-Sized.com
+
+The normal filename for the archive file is:- SCRAMBLE.ZIP
+
+If you require unique filenames for each release, please use the name
+e.g.    SCRAM100.ZIP
+
+Suggested Title
+~~~~~~~~~~~~~~~
+Scramble TrueType Font v1.00.
+
+Suggested Keywords
+~~~~~~~~~~~~~~~~~~
+TrueType;Font;TTF;3D;Scrabble
+
+Suggested Description
+~~~~~~~~~~~~~~~~~~~~~
+A Realistic TrueType Font.
+Includes example documents in Word for Windows v6, Windows Write and RTF formats.
+All documentation is included with in the .zip
+Registration is £5.00 Stirling. Registered Users get 6 months eMail support.

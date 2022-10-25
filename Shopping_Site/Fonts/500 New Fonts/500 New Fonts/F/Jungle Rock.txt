@@ -1,0 +1,23 @@
+JFJungleRock is a freeware font from the Jester Font Studio.
+Use it any way you want to, but most of all, have fun with it.
+
+You will need to know these characters.
+There are 4 spaces, 4 left edges and 4 right edges 
+as well as a complete blank like a real space.
+
+Spaces
+space bar          river
+_ (underscore)  wide space, ants & butterfly
+- (minus)           ladybird & vine
+= (equals)         monkey
+
+Edges
+( )   round brackets         leafy edge
+[ ]   square brackets        thin leafy edge
+{ }   curly brackets         flower edge
+< >   less/ greater than    vine edge
+
+Leave a gap
++ (plus sign)       complete blank
+
+mail@jesterfonts.fsnet.co.uk

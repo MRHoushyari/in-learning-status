@@ -1,0 +1,163 @@
+.controlpanelcontainer{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat( 12, 1fr);}
+
+.controlpanelcontainer .leftsection{
+    grid-column: 1 / span 9;
+    /* background-color: pink; */
+}
+.controlpanelcontainer .leftsection .header{
+    /* border: 4px solid black; */
+    padding: 20px;
+
+    /* display: flex;
+    justify-content: space-between; */}
+.controlpanelcontainer .leftsection .header .navcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    /* font-size: 1.2em; */
+}
+.controlpanelcontainer .leftsection .header .navcontainer .left{}
+.controlpanelcontainer .leftsection .header .navcontainer .left i{
+    font-size: 1.5em;
+    color: #34495e;
+    margin-right: 15px;}
+
+.controlpanelcontainer .leftsection .header .navcontainer .right{
+    display: flex;
+    align-items: center;}
+.controlpanelcontainer .leftsection .header .navcontainer .right .searchbox{
+    background-color: #ecf0f1;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;}
+.controlpanelcontainer .leftsection .header .navcontainer .right .searchbox i{
+    color: #7f8fa6;}
+.controlpanelcontainer .leftsection .header .navcontainer .right .searchbox input{
+    outline: none;
+    font-size: 1.2em;
+    color: white;
+    background: none;
+    border: none;}
+.controlpanelcontainer .leftsection .header .navcontainer .right i{
+    font-size: 1.5em;
+    color: #0097e6;}
+
+.controlpanelcontainer .leftsection .header .titlecontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.controlpanelcontainer .leftsection .header .titlecontainer .left{}
+.controlpanelcontainer .leftsection .header .titlecontainer .left a{}
+.controlpanelcontainer .leftsection .header .titlecontainer .left a .languagebnt{}
+.controlpanelcontainer .leftsection .header .titlecontainer .left a .languagebnt input{
+    font-size: 1.1em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #34495e;}
+
+.controlpanelcontainer .leftsection .header .titlecontainer .right{
+    color: #34495e;
+    font-size: 1.2em;}
+.controlpanelcontainer .leftsection .header .titlecontainer .right span{}
+
+.controlpanelcontainer .leftsection .main{
+    background-color: #f5f6fa;}
+.controlpanelcontainer .leftsection .main .cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* height: 700px; */
+    padding: 20px;
+
+}
+.controlpanelcontainer .leftsection .main .cards .card{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    /* padding: 10px; */
+    /* border: 4px solid; */
+
+}
+.controlpanelcontainer .leftsection .main .cards .card .left{
+    width: 200px;
+    height: 100px;
+    /* border: 4px solid; */
+    /* padding: 10px 10px; */
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controlpanelcontainer .leftsection .main .cards .card .left:first-child{
+}
+.controlpanelcontainer .leftsection .main .cards .card .left span{
+    direction: rtl;
+    margin: 0 auto;
+    display: block;
+    /* width: 100%; */
+}
+.controlpanelcontainer .leftsection .main .cards .card .right{
+    height: 100px;
+    background-color: #dcdde1;
+    padding: 0px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid black; */
+    /* height: 100%; */
+    /* width: 100%; */
+}
+.controlpanelcontainer .leftsection .main .cards .card .right i{
+    color: #0097e6;
+}
+
+.controlpanelcontainer .leftsection .main .chartcontainer{
+    /* border: solid 4px; */
+    /* height: 500px; */
+}
+.controlpanelcontainer .leftsection .main .chartcontainer .setting{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.controlpanelcontainer .leftsection .main .chartcontainer .setting .left{
+}
+.controlpanelcontainer .leftsection .main .chartcontainer .setting .left i{
+    color: #34495e;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+.controlpanelcontainer .leftsection .main .chartcontainer .setting .right{
+    color: #34495e;
+    font-size: 1.2em;
+}
+
+.controlpanelcontainer .leftsection .main .chartcontainer .chart{}
+
+.controlpanelcontainer .rightsection{
+    direction: rtl;
+    grid-column: 10 / -1;
+    /* background-color: blue; */
+    /* border: 4px solid; */
+    /* background-color: #34495e; */
+
+}
+.controlpanelcontainer .rightsection .userinfo{
+    background-color: #34495e;
+    height: 90px;
+    width: 100%;
+}
+.controlpanelcontainer .rightsection .userinfo i{}
+.controlpanelcontainer .rightsection .userinfo span{}
+.controlpanelcontainer .rightsection .userinfo img{}
+
+.controlpanelcontainer .rightsection nav{}
+.controlpanelcontainer .rightsection nav .navitem{}
+.controlpanelcontainer .rightsection nav .navitem span{}
+.controlpanelcontainer .rightsection nav .navitem i{}
+

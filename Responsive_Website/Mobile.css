@@ -1,0 +1,26 @@
+
+aside{
+    display: none;
+}
+#cards{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#SpanContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 30px;
+}
+#SpanContainer span{
+    text-align: center;
+    margin-bottom: 2px;
+}
+section p{
+    width: 100%;
+    /* display: flex; */
+}
+main{
+    display: flex;
+    padding: 20px;
+}

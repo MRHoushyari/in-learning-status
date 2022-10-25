@@ -1,0 +1,3 @@
+/* 0 - 480 */
+.card_section .card{
+    grid-column: auto / -1;}
