@@ -8,21 +8,19 @@ canvas.width = WInX;
 canvas.height = WInY;
 
 class Ball{
-    constructor(radius){
+    constructor(radius, x ,y){
         this.r = randomIntFromInterval(5, radius);
-        this.x = randomIntFromInterval(this.r, WInX - this.r);
-        this.y = randomIntFromInterval(this.r, WInY - this.r);
+        this.x = x || randomIntFromInterval(this.r, WInX - this.r);
+        this.y = y || randomIntFromInterval(this.r, WInY - this.r);
         this.color = `rgb(${randomIntFromInterval(0,254)},${randomIntFromInterval(0,254)},${randomIntFromInterval(0,254)})`;
         this.vx = randomIntFromInterval(-10, 10);
         this.vy = randomIntFromInterval(-10, 10);
     };
     draw(){
         c.beginPath();
-        // c.moveTo(this.x, this.y);
         c.arc(this.x, this.y, this.r, 0, 2 * Math.PI)
         c.fillStyle = this.color;
         c.fill()
-        // requestAnimationFrame(this.update());
     };
     update(){
         if ((this.x > (WInX - this.r)) || (this.x < this.r))
@@ -38,12 +36,16 @@ class Ball{
         this.draw();
     };
     };
+    
+    document.querySelector("body").addEventListener("click", (event)=>{
+        balls.push(new Ball(50, event.clientX,event.clientY))
+    });
+
+    
     let balls = [];
-    for(let i = 0;i < 200; i++){
+    for(let i = 0;i < 5; i++){
         balls.push(new Ball(50));
     }
-    // ball = new Ball(50);
-    // balls.forEach(animate)
     animate()
 
 function animate()
@@ -57,4 +59,3 @@ function animate()
 function randomIntFromInterval(min, max) { // min and max included 
     return Math.floor(Math.random() * (max - min + 1) + min)
   };
-  
