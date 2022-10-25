@@ -39,7 +39,9 @@ class Ball{
         this.draw();
     };
     };
-    
+// End of ball object
+
+// Event listener section
     document.querySelector("body").addEventListener("click", (e)=>{
         balls.push(new Ball(50, e.clientX,e.clientY))
     });
@@ -49,7 +51,7 @@ class Ball{
             if (((Math.sqrt(Math.pow((e.clientX - ball.x), 2) + Math.pow((e.clientY - ball.y), 2))) < 100 ) && (ball.r < (ball.normalR * 2))){
                 ball.r += 1;}
             else 
-            if (((Math.sqrt(Math.pow((e.clientX - ball.x), 2) + Math.pow((e.clientY - ball.y), 2))) >= 100 ) && (ball.r > (ball.normalR))){
+            if (ball.r > (ball.normalR)){
                 ball.r -= 1;}
             })});
 
@@ -59,6 +61,7 @@ class Ball{
     }
     animate()
 
+// Starter Function
 function animate()
 {
     c.clearRect(0, 0, WInX, WInY);
@@ -67,6 +70,6 @@ function animate()
     });
     requestAnimationFrame(animate);
 };
-function randomIntFromInterval(min, max) { // min and max included 
-    return Math.floor(Math.random() * (max - min + 1) + min)
-  };
+
+// Random Maker Function
+function randomIntFromInterval(min, max) {return Math.floor(Math.random() * (max - min + 1) + min)};
