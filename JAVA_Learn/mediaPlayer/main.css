@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+}
+#music-name {
+  margin-top: 40px;
+  color: antiquewhite;
+  text-align: center;
+}
+#music-image {
+  margin-top: 30px;
+  width: 500px;
+  height: 500px;
+  display: block;
+  border-radius: 50%;
+}
+#seekBar {
+  margin-top: 80px;
+  width: 100%;
+}
+label {
+  display: block;
+  color: pink;
+  text-align: center;
+}
+#Controllers {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.ctrlbtn {
+  font-size: 2.5em;
+  color: aliceblue;
+  border-radius: 50%;
+  cursor: pointer;
+}
