@@ -22,18 +22,24 @@ let musicImage = document.querySelector("#music-image");
 let preBtn = document.querySelector("#pre-Btn");
 let playBtn = document.querySelector("#play-Btn");
 let nextBtn = document.querySelector("#next-BTN");
+let musicTimer = document.querySelector("#musicTimer");
 
 let currentMusic = 0;
 musicName.innerText = musics[currentMusic].name;
 musicImage.src = musics[currentMusic].cover;
 let track = musics[currentMusic].audio;
-
+/////////////////////////////////////////////////////////////////////Track Load Event
 track.addEventListener("canplay", () => {
   bar.min = 0;
   bar.value = 0;
   bar.max = track.duration;
+  musicTimer.innerText =
+    Math.round(track.currentTime) +
+    "    Of    " +
+    Math.round(track.duration) +
+    "Second";
 });
-
+/////////////////////////////////////////////////////////////////////playBtn
 playBtn.addEventListener("click", () => {
   if (track.duration > 0 && !track.paused) {
     playBtn.className = "fa fa-play ctrlbtn";
@@ -43,15 +49,25 @@ playBtn.addEventListener("click", () => {
     playBtn.className = "fa fa-pause ctrlbtn";
   }
 });
-
+/////////////////////////////////////////////////////////////////////bar ubdate
 bar.addEventListener("change", (e) => {
   track.currentTime = bar.value;
+  musicTimer.innerText =
+    Math.round(track.currentTime) +
+    "    Of    " +
+    Math.round(track.duration) +
+    "Second";
 });
-
+/////////////////////////////////////////////////////////////////////play time update with bar
 track.addEventListener("timeupdate", (e) => {
   bar.value = track.currentTime;
+  musicTimer.innerText =
+    Math.round(track.currentTime) +
+    "    Of    " +
+    Math.round(track.duration) +
+    "Second";
 });
-
+/////////////////////////////////////////////////////////////////////Next Button
 nextBtn.addEventListener("click", (e) => {
   if (currentMusic == 2) {
     currentMusic = 0;
@@ -61,7 +77,8 @@ nextBtn.addEventListener("click", (e) => {
     change(currentMusic);
   }
 });
-
+document.querySelector.apply;
+/////////////////////////////////////////////////////////////////////Previus Button
 preBtn.addEventListener("click", (e) => {
   if (currentMusic == 0) {
     currentMusic = 2;
@@ -71,13 +88,26 @@ preBtn.addEventListener("click", (e) => {
     change(currentMusic);
   }
 });
-
+///////////////////////////////////////////////////////////////////// Next / Previus Button (Change Function)
 function change(currentMusic) {
   playBtn.className = "fa fa-play ctrlbtn";
   track.pause();
   track.currentTime = 0;
   bar.value = 0;
+  track = musics[currentMusic].audio;
   musicImage.src = musics[currentMusic].cover;
   musicName.innerText = musics[currentMusic].name;
-  track = musics[currentMusic].audio;
+  musicTimer.innerText =
+    Math.round(track.currentTime) +
+    "    Of    " +
+    Math.round(track.duration) +
+    "Second";
+  track.addEventListener("timeupdate", (e) => {
+    bar.value = track.currentTime;
+    musicTimer.innerText =
+      Math.round(track.currentTime) +
+      "    Of    " +
+      Math.round(track.duration) +
+      "Second";
+  });
 }

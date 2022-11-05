@@ -19,11 +19,20 @@ html {
   display: block;
   border-radius: 50%;
 }
-#seekBar {
-  margin-top: 80px;
+#barContainer{
   width: 100%;
+  border: 1px solid pink;
+}
+#seekBar {
+  width: 100%;
+  color: pink;
+}
+#musicTimer{
+  color: blue;
+  /* background-color: red; */
 }
 label {
+  margin-top: 80px;
   display: block;
   color: pink;
   text-align: center;
